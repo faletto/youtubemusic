@@ -1942,3 +1942,22 @@ yt-icon.ytmusic-guide-signin-promo-renderer {
 .action-text.ytmusic-guide-signin-promo-renderer {
   color: var(--ctp-accent) !important;
 }
+
+ytmusic-miniplayer {
+  --ytmusic-player-bar-background: var(--ctp-base) !important;
+}
+    
+.ytMusicMiniPlayerProgressBar {
+  --yt-sys-color-baseline--static-brand-red: var(--ctp-accent) !important;
+  --yt-sys-color-baseline--static-magenta: var(--ctp-accent) !important;
+  --yt-sys-color-baseline--mono-tonal-hover: var(--ctp-surface2) !important;
+  --yt-sys-color-baseline--ten-percent-layer: var(--ctp-surface0) !important;
+}
+
+input.ytMusicMiniPlayerProgressBar::-webkit-slider-thumb {
+  background: var(--ctp-accent) !important;
+}
+    
+input.ytMusicMiniPlayerProgressBar::-moz-range-thumb {
+    background: var(--ctp-accent) !important;
+}
