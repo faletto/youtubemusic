@@ -1954,10 +1954,10 @@ ytmusic-miniplayer {
   --yt-sys-color-baseline--ten-percent-layer: var(--ctp-surface0) !important;
 }
 
-input.ytMusicMiniPlayerProgressBar::-webkit-slider-thumb {
+.ytMusicMiniPlayerProgressBar::-webkit-slider-thumb {
   background: var(--ctp-accent) !important;
 }
     
-input.ytMusicMiniPlayerProgressBar::-moz-range-thumb {
+.ytMusicMiniPlayerProgressBar::-moz-range-thumb {
     background: var(--ctp-accent) !important;
 }
